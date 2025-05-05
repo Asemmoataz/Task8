@@ -1,0 +1,84 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    margin: -8px;
+    display: flex;
+    justify-content: center;
+}
+body img{
+    width: 100%;
+    height: 100%;
+}
+.son {
+    display: flex;
+    position: absolute;
+    width: 340px;
+    height: 575px;
+    background-color: white;
+    right: 20px;
+    bottom:  -7px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.son p:first-child{
+    color: blueviolet;
+    font-size: 20px;
+    font-weight: bold;
+}
+.son p:nth-child(6){
+    color: rgb(100, 100, 206);
+}
+.two{
+    width: 125px;
+    height: 125px;
+}
+.four,
+.five{
+    height: 40px;
+    width: 300px;
+    border-radius: 20px;
+    outline: none;
+    border: 2px solid rgb(100, 100, 206); 
+    font-size: 19px;
+    color: red; 
+}
+.four{
+    background:  url(pictures/email.svg) no-repeat  14px -2px;
+}
+.five{
+    background: url(pictures/password\ lock.svg) no-repeat 14px -2px;
+}
+input::placeholder{
+    text-align: center;
+    color: rgb(100, 100, 206);
+    font-size: 15px;
+}
+/* .three[type=checkbox]{
+    accent-color: red;
+} */
+.now{
+    text-align: center;
+}
+button{
+    height: 40px;
+    width: 294px;
+    border-radius: 20px;
+    outline: none; 
+    color: white;
+    background-color: blueviolet;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: rgb(100, 100, 206);
+}
+p{
+    padding: 3px;
+}
